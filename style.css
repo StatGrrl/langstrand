@@ -300,10 +300,10 @@ a.ft-contact-links:hover {
     font-size: 2.7em;
   }
   p,li.feature {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .text-box {
-    padding: 50px;
+    padding: 20px;
   } 
 }
 
@@ -313,14 +313,14 @@ a.ft-contact-links:hover {
     font-size: 2em;
   }
   p,li.feature {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   .text-box {
     padding: 30px;
   } 
 }
 .list-box {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /********** X Small devices only **********/
@@ -329,7 +329,7 @@ a.ft-contact-links:hover {
     font-size: 1.5em;
   }
   p,li.feature {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .text-col {
     height: 250px;
@@ -346,5 +346,5 @@ a.ft-contact-links:hover {
   }  
 }
 .list-box {
-  margin-left: 20px;
+  margin-left: 5px;
 }
