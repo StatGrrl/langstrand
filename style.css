@@ -131,7 +131,7 @@ h2 {
   padding: 0;
 }
 .text-box {
-  text-align: center;
+  text-align: center !important;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -275,7 +275,7 @@ a.ft-contact-links:hover {
     font-size: 1.8em;
   }
   .text-box {
-    padding: 50px;
+    padding: 100px;
   } 
 
 }
@@ -289,7 +289,7 @@ a.ft-contact-links:hover {
     font-size: 2em;
   }
   .text-box {
-    padding: 50px;
+    padding: 100px;
   } 
 
 }
@@ -303,7 +303,7 @@ a.ft-contact-links:hover {
     font-size: 1.25em;
   }
   .text-box {
-    padding: 20px;
+    padding: 100px;
   } 
 
 .list-box {
@@ -319,9 +319,9 @@ a.ft-contact-links:hover {
   p,li.feature {
     font-size: 0.9em;
   }
-  .text-box {
+/*  .text-box {
     padding: 10px;
-  } 
+  } */
 
 .list-box {
   margin-left: 10px;
@@ -350,11 +350,11 @@ a.ft-contact-links:hover {
     opacity: 1;
   }  
 
-.text-box {
-  padding: 5px;
-} 
+/*.text-box {
+  padding: 10px;
+} */
 
 .list-box {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 }
