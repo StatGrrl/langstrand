@@ -313,11 +313,14 @@ a.ft-contact-links:hover {
     font-size: 2em;
   }
   p,li.feature {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
   .text-box {
     padding: 30px;
   } 
+}
+.list-box {
+  margin-left: 20px;
 }
 
 /********** X Small devices only **********/
@@ -341,4 +344,7 @@ a.ft-contact-links:hover {
   img.demo {
     opacity: 1;
   }  
+}
+.list-box {
+  margin-left: 20px;
 }
