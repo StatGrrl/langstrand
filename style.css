@@ -305,8 +305,12 @@ a.ft-contact-links:hover {
   .text-box {
     padding: 20px;
   } 
+
+.list-box {
+  margin-left: 20px;
 }
 
+}
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 767px) {
   h1 {
@@ -316,11 +320,12 @@ a.ft-contact-links:hover {
     font-size: 0.9em;
   }
   .text-box {
-    padding: 30px;
+    padding: 10px;
   } 
-}
+
 .list-box {
   margin-left: 10px;
+}
 }
 
 /********** X Small devices only **********/
@@ -344,7 +349,12 @@ a.ft-contact-links:hover {
   img.demo {
     opacity: 1;
   }  
-}
+
+.text-box {
+  padding: 5px;
+} 
+
 .list-box {
   margin-left: 5px;
+}
 }
