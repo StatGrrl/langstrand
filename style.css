@@ -14,32 +14,32 @@ html {
 }
 body {
   font-size: 12pt;
-  background-color: white;
-  color: rgb(77, 82, 97);
+  background-color: white !important;
+  color: rgb(33, 92, 138) !important;
 }
 a {
     background-color: white !important;
-    color: rgb(77, 82, 97) !important;
+    color: rgb(33, 92, 138) !important;
     text-decoration: none;
 }
 a:visited {
     background-color: white !important;
-    color: rgb(77, 82, 97) !important;
+    color: rgb(33, 92, 138) !important;
     text-decoration: none;
 }
 a:hover {
-      background-color: rgb(77, 82, 97) !important;
+      background-color: rgb(33, 92, 138) !important;
       color: white !important;
       text-decoration: none;
 }
 a.active {
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
   background-color: white !important;
   text-decoration: none;
-  border-left: 1px solid rgb(77, 82, 97) !important;
-  border-right: 1px solid rgb(77, 82, 97) !important;
-  border-top: 1px solid rgb(77, 82, 97) !important;
-  border-bottom: 1px solid rgb(77, 82, 97) !important;
+  border-left: 1px solid rgb(33, 92, 138) !important;
+  border-right: 1px solid rgb(33, 92, 138) !important;
+  border-top: 1px solid rgb(33, 92, 138) !important;
+  border-bottom: 1px solid rgb(33, 92, 138) !important;
   border-radius: 5px;
 
 }
@@ -51,7 +51,7 @@ a.active {
 
 /* Navbar */
 .navbar {
- border-bottom: 1px solid rgb(77, 82, 97); 
+ border-bottom: 1px solid rgb(33, 92, 138) !important;
     height: 80px;
     background-color: white !important;
 }
@@ -69,33 +69,33 @@ a.navbar-brand:hover {
 }
 a.nav-email {
   background-color: white !important;
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
   text-decoration: none;
 }
 a.nav-email:visited {
   background-color: white !important;
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
   text-decoration: none;
 }
 a.nav-email:hover {
   background-color: white !important;
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
     text-decoration: none;
 }
 a.contact-links {
   font-size: 1.5em;
   background-color: white !important;
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
   text-decoration: none;
   padding: 10px;
 }
 a.contact-links:visited {
   background-color: white !important;
-  color: rgb(77, 82, 97) !important;
+  color: rgb(33, 92, 138) !important;
   text-decoration: none;
 }
 a.contact-links:hover {
-  background-color: rgb(77, 82, 97) !important;
+  background-color: rgb(33, 92, 138) !important;
   color: white !important;
     text-decoration: none;
 }
@@ -191,31 +191,31 @@ h2 {
   padding: 30px 10px 30px 10px;
 }
 .colour-ft {
-    background-color: rgb(77, 82, 97);
+    background-color: rgb(33, 92, 138) !important;
     color: white;
 }
 a.colour-ft {
-  background-color: rgb(77, 82, 97) !important; 
+  background-color: rgb(33, 92, 138) !important;
   color: white !important;
 }  
 a.colour-ft:hover {
-  background-color: rgb(77, 82, 97);
+  background-color: rgb(33, 92, 138) !important;
   color: white;
 }  
 a.ft-contact-links {
   font-size: 1.5em;
-  background-color: rgb(77, 82, 97) !important;
+  background-color: rgb(33, 92, 138) !important;
   color: white !important;
   text-decoration: none;
   padding: 10px;
 }
 a.ft-contact-links:visited {
-  background-color: rgb(77, 82, 97) !important;
+  background-color: rgb(33, 92, 138) !important;
   color: white !important;
   text-decoration: none;
 }
 a.ft-contact-links:hover {
-  background-color: rgb(77, 82, 97) !important;
+  background-color: rgb(33, 92, 138) !important;
   color: white !important;
     text-decoration: none;
 }
