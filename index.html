@@ -9,12 +9,12 @@
   
 
   <!-- Edit title and content -->
-  <title>Paternoster | Beach House & Shalom Beach House</title>
+  <title>Langstrand Paternoster | Self-catering holiday accommodation</title>
   <meta name="description" content="Self-catering accommodation in Paternoster on the west coast of South Africa" />
   <meta name="keywords" content="accommodation, beach, house, self-catering, paternoster, south, africa, SA, west, coast" />
 
   <!-- Whatsapp share-->
-  <meta property="og:title" content="Beach House & Shalom Beach House" />
+  <meta property="og:title" content="Langstrand Paternoster" />
   <meta property="og:url" content="https://www.langstrand.co.za/" />
   <meta property="og:description" content="Self-catering accommodation in Paternoster on the west coast of South Africa" />
   <meta property="og:type" content="website" />
@@ -47,8 +47,12 @@
   <!-- STYLE SHEETS -->
 
     <!-- Google fonts example https://fonts.google.com/ -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -60,43 +64,49 @@
 
 <body>
 
-    
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container-fluid"> <!--cont-rel class for centering logo-->
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-lg navbar-light fixed-top m-0 p-0">
+      <div class="container-fluid m-0 p-0"> 
 
-          <a class="navbar-brand" href="index.html">
-            <img src="images/waves.png" alt="logo" height="60px" style="padding: 5px;">
-          </a>
+        <a class="navbar-brand ps-4" href="index.html">
+          <img src="images/waves.png" alt="logo" height="60px" style="padding: 5px;">
+        </a>
 
-
+        <div class="pe-4">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-pills me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="bh.html">Beach House</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="shalombeachhouse.html">Shalom Beach House</a>
-              </li>
-<!--              <li id=book class="nav-item">
-                <a class="nav-link" href="#">BOOK NOW</a>
-              </li>
--->
-            </ul>
-          </div>
-
-<!--
-        <span class="navbar-text d-none d-lg-block">
-           <a class="nav-email" href="mailto:info@langstrand.co.za">info@langstrand.co.za</a>
-        </span>
--->            
         </div>
-      </nav>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="nav-list" class="navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beachhouse.html">Beach House</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shalomhouse.html">Shalom House</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skye.html">Skye</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex d-none d-lg-block pe-4">
+            <a class="contact-links" href="mailto:info@langstrand.co.za">
+              <i class="fas fa-envelope"></i></a>		
+            <a class="contact-links" href="https://www.facebook.com/LangstrandPaternoster/" target="_blank">
+              <i class="fab fa-facebook-f"></i></a> 
+            <a class="contact-links" href="https://www.instagram.com/LangstrandPaternoster/" target="_blank">
+              <i class="fab fa-instagram"></i></a>    
+        </div>      
+      </div>
+
+    </nav>
+  </header>  
 
   <div class="container-fluid content">
     <div class="row">
@@ -106,8 +116,8 @@
             <img src="images/home_main_sm.jpg" class="d-none d-sm-block d-xl-none top-cover-img">
             <img src="images/home_main_xs.jpg" class="d-sm-none top-cover-img">
           <div class="text-block-centered">
-              <h2>Paternoster</h2>
-            <p>Beach House & Shalom Beach House</p>
+              <h2>Langstrand Paternoster</h2>
+            <p>Self-catering Holiday Accommodation</p>
         </div>
         </div>
     </div>
@@ -165,8 +175,8 @@
               The Beach House is self-catering accommodation and has 3 bedrooms, each with on-suite bathrooms. 
               With a fireplace, braai, pool and a great view 20m from Voorstrand Beach, it has everything you need.
           </p>
-          <a href="/beachhouse.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline ">Learn More</a>
-          <a href="/beachhouse.html" class="btn btn-outline-secondary d-sm-none">Learn More</a>
+          <a href="beachhouse.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline ">Learn More</a>
+          <a href="beachhouse.html" class="btn btn-outline-secondary d-sm-none">Learn More</a>
         </div>
       </div>
 
@@ -205,13 +215,13 @@
 
       <div class="col-xl-6 text-col ">
         <div class="text-box">
-            <h1>Shalom Beach House</h1>
+            <h1>Shalom House</h1>
             <p>
                 Located 50m from Langstrand Beach, Shalom is a lovely cottage with a great view.
                 This self-catering cottage has a fire-place, braai, 3 bedrooms, 3 bathrooms, and is pet-friendly.
             </p> 
-            <a href="/shalombeachhouse.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline ">Learn More</a>
-            <a href="/shalombeachhouse.html" class="btn btn-outline-secondary d-sm-none">Learn More</a>
+            <a href="shalomhouse.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline ">Learn More</a>
+            <a href="shalomhouse.html" class="btn btn-outline-secondary d-sm-none">Learn More</a>
                  </div>
      </div>
 
@@ -223,8 +233,34 @@
 
     </div>
 
+    <div class="row">
+
+      <div class="col-xl-6 text-col ">
+        <div class="text-box">
+          <h1>Skye</h1>
+          <p>
+              Three self-catering units near Langstrand Beach. Each unit has a bedroom with a double bed and en-suite bathroom, a kitchen and a lounge area.
+          </p>
+            <a href="skye.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline ">Learn More</a>
+            <a href="skye.html" class="btn btn-outline-secondary d-sm-none">Learn More</a>
+        </div>
+      </div>
+
+      <div class="col-xl-6 img-col">
+        <img src="images/skye_xl.jpg" class="d-none d-xl-block cover-img">
+        <img src="images/skye_sm.jpg" class="d-none d-sm-block d-xl-none cover-img">
+        <img src="images/skye_xs.jpg" class="d-sm-none cover-img">
+      </div>
+
+    </div>    
 
     <div class="row">
+
+      <div class="col-xl-6 img-col d-none d-xl-block">
+        <a href="https://goo.gl/maps/ASHtpmqUtyZFD4Uf7" target="_blank">
+        <img src="images/paternoster_map_xl.jpg" class="d-none d-xl-block cover-img">
+      </a>
+      </div>
 
       <div class="col-xl-6 text-col ">
         <div class="text-box">
@@ -235,9 +271,8 @@
         </div>
       </div>
 
-      <div class="col-xl-6 img-col">
+     <div class="col-xl-6 img-col d-xl-none">
         <a href="https://goo.gl/maps/ASHtpmqUtyZFD4Uf7" target="_blank">
-        <img src="images/paternoster_map_xl.jpg" class="d-none d-xl-block cover-img">
         <img src="images/paternoster_map_sm.jpg" class="d-none d-sm-block d-xl-none cover-img">
         <img src="images/paternoster_map_xs.jpg" class="d-sm-none cover-img">
       </a>
@@ -257,12 +292,19 @@
       	</div>
 
         <div class="col  d-lg-none colour-ft">
-          
-          <span>
-<!--            <a class="colour-ft" href="mailto:info@langstrand.co.za" >info@langstrand.co.za</a> </br>
-  -->
+                  
+          <div class="d-block">
+            <a class="ft-contact-links" href="mailto:info@langstrand.co.za">
+              <i class="fas fa-envelope"></i></a>		
+            <a class="ft-contact-links" href="https://www.facebook.com/LangstrandPaternoster/" target="_blank">
+              <i class="fab fa-facebook-f"></i></a> 
+            <a class="ft-contact-links" href="https://www.instagram.com/LangstrandPaternoster/" target="_blank">
+              <i class="fab fa-instagram"></i></a>    
+        </div>      
+
+          <div>
             Website &amp; images &copy; Langstrand.co.za 2022 
-            </span>  
+          </div>  
         </div>
 
       </div>    

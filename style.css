@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: "Assistant", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   font-size: 12pt;
   background-color: white !important;
   color: rgb(33, 92, 138) !important;
@@ -50,20 +54,18 @@ a.active {
  
 
 /* Navbar */
-.navbar {
- border-bottom: 1px solid rgb(33, 92, 138) !important;
-    height: 80px;
+#header-nav {
+    border-radius: 0;
+    height: 100px;
     background-color: white !important;
+    border-bottom: 1px solid rgb(33, 92, 138) !important;
 }
-/*
-.navbar-brand {
-        position: absolute;
-        left: 50%;
-        margin-left: -40px !important;  
-        display: block;
-        background-color: white !important;
-}  
-*/
+
+#nav-list a {
+  text-align: center;
+}
+
+
 a.navbar-brand:hover {
   background-color: white !important;
 }
@@ -102,7 +104,7 @@ a.contact-links:hover {
 /* Content */
 
 .content {
-  padding: 0px;
+  padding: 100px 0px 0px 0px;
   max-width: 2400px;
 }
 
@@ -176,10 +178,11 @@ h2 {
     position: relative;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 .text-block-centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
