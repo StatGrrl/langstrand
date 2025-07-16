@@ -2,9 +2,9 @@ Responsive website for Langstrand Paternoster, self-catering holiday accommodati
 
 https://statgrrl.github.io/langstrand/
 
-* Image dimensions (px)*
+Image dimensions (px):
 
-Hero image		
+Hero images		
 xl 2400 x 850 
 sm 1200 x 650
 xs  830 x 650
